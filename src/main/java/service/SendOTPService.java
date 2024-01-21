@@ -47,7 +47,7 @@ public class SendOTPService {
             message.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
 
             // Set Subject: header field
-            message.setSubject("File Enc ka OTP");
+            message.setSubject("OTP for File Encryption");
 
             // Now set the actual message
             message.setText("Your One-time Password for File Enc app is " + genOTP);
